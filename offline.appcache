@@ -1,0 +1,25 @@
+CACHE MANIFEST
+
+# jQuery core
+jquery-1.8.3.min.js
+
+# jQuery Mobile files without custom theme
+jquery.mobile-1.2.0/jquery.mobile-1.2.0.min.js
+jquery.mobile-1.2.0/jquery.mobile.structure-1.2.0.min.css
+jquery.mobile-1.2.0/images/ajax-loader.gif
+jquery.mobile-1.2.0/images/icons-18-black.png
+jquery.mobile-1.2.0/images/icons-18-white.png
+jquery.mobile-1.2.0/images/icons-36-black.png
+jquery.mobile-1.2.0/images/icons-36-white.png
+
+# local app files
+jquery-mobile-theme/themes/COM339.min.css
+jquery-mobile-theme/themes/images/ajax-loader.gif
+jquery-mobile-theme/themes/images/icons-18-black.png
+jquery-mobile-theme/themes/images/icons-18-white.png
+jquery-mobile-theme/themes/images/icons-36-black.png
+jquery-mobile-theme/themes/images/icons-36-white.png
+images/launch_image.png
+icons/mad_57.png
+index.css
+index3.js

@@ -1,0 +1,333 @@
+<!DOCTYPE HTML>
+<html manifest="offline.appcache">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Mobile App Design</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link href="jquery-mobile-theme/themes/COM339.min.css" rel="stylesheet" type="text/css">
+<link href="jquery.mobile-1.2.0/jquery.mobile.structure-1.2.0.min.css" rel="stylesheet" type="text/css">
+<link href="index.css" rel="stylesheet" type="text/css">
+<script src="jquery-1.8.3.min.js"></script>
+<script src="index3.js"></script>
+<script src="jquery.mobile-1.2.0/jquery.mobile-1.2.0.min.js"></script>
+<!--chromeless web app -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-startup-image" href="images/launch_image.png"
+media="(max-device-width: 480px)">
+<!--icons -->
+<link rel="apple-touch-icon" href="icons/mad_57.png" sizes="57x57">
+</head>
+
+<body>
+<section data-role="page" id="intro" data-fullscreen="true" data-theme="a">
+  <header data-role="header" data-position="fixed">
+    <h1>Mobile App Design</h1>
+  </header>
+  <div data-role="content" class="top_margin">
+    <div data-role="collapsible-set">
+    <div data-role="collapsible" data-inset="true">    
+      <h2>Description</h2>
+      <p>In this course, students will learn to create web-based interactive applications for mobile devices. They will apply advanced Web design and interactive programming techniques to produce applications that are compatible with a variety of mobile platforms. They will learn writing and design strategies to produce content optimized for mobile devices. They will be introduced to software and protocols for converting their Web-based applications to "native" applications designed to run on specific platforms and devices.</p>
+    </div>
+    <div data-role="collapsible">
+      <h2>Objectives</h2>
+      <ol data-role="listview">
+        <li>to demonstrate competency in advanced HTML, CSS, and interactive programming languages relevant to Web-based mobile application development;</li>
+        <li>to apply effective design and writing strategies in creating content optimized for delivery   on mobile devices;</li>
+        <li>to use programming languages such as JavaScript to produce effective user interfaces;</li>
+        <li>to demonstrate basic knowledge of the field of mobile application development, including leading device manufacturers and operating systems, common development protocols, and career paths.</li>
+      </ol>
+    </div>
+    </div>
+    <div>
+    <img src="icons/mad_57.png" class="center">
+    </div>
+  </div>
+  <footer data-role="footer" data-position="fixed" data-id="myFooter">
+     <nav data-role="navbar" data-theme="c">   
+    <ul>
+      <li><a href="#intro" data-icon="home" data-iconpos="bottom" data-mini="true" class="ui-btn-active">Home</a>
+      <li><a href="#info" data-icon="info" data-iconpos="bottom" data-mini="true" >Info</a></li>
+      <li><a href="#announce" data-icon="star" data-iconpos="bottom" data-mini="true" >New</a></li>
+      <li><a href="#resources" data-icon="search" data-iconpos="bottom" data-mini="true" >Links</a></li>
+    </ul>
+  </nav>
+  <h5>&copy;2012 Stephanie Tripp</h5></footer>
+</section>
+<section data-role="page" id="info" data-fullscreen="true" data-theme="a">
+  <header data-role="header" data-position="fixed"><h1>Info</h1></header>
+  <div data-role="content" class="top_margin">
+<ul data-role="listview" data-inset="true">
+    <li data-icon="info">Professor: Stephanie Tripp, Ph.D.</li>
+    <li data-icon="info">Office: Cass Annex 129</li>
+    <li data-icon="info">Hours: 10-11:40, and by appointment</li>
+    <li data-icon="info">Mailbox: 106-F</li>
+    <li><a href="tel:+18132573387" data-icon="info">Phone: (813) 257-3387</a></li>
+    <li><a href="mailto:stripp@ut.edu" data-icon="info">Email: stripp@ut.edu</a></li>
+    <li><a href="#policies">Policies</a></li>
+    <li><a href="#schedule">Schedule</a></li>
+     </ul>
+  </div>
+  <footer data-role="footer" data-position="fixed" data-id="myFooter">
+     <nav data-role="navbar" data-theme="c">   
+    <ul>
+      <li><a href="#intro" data-icon="home" data-iconpos="bottom" data-mini="true">Home</a>
+      <li><a href="#info" data-icon="info" data-iconpos="bottom" data-mini="true" class="ui-btn-active">Info</a></li>
+      <li><a href="#announce" data-icon="star" data-iconpos="bottom" data-mini="true" >New</a></li>
+      <li><a href="#resources" data-icon="search" data-iconpos="bottom" data-mini="true" >Links</a></li>
+    </ul>
+  </nav>
+  <h5>&copy;2012 Stephanie Tripp</h5></footer>
+</section>
+<section data-role="page" id="professor" data-fullscreen="true" data-theme="a">
+  <header data-role="header" data-position="fixed"><h1>Professor</h1></header>
+  <div data-role="content" class="top_margin">
+  <ul data-role="listview" inset="true">
+    <li>Professor: Stephanie Tripp, Ph.D.</li>
+    <li>Office: Cass Annex 129</li>
+    <li>Hours: 10-11:40, and by appointment</li>
+    <li>Mailbox: 106-F</li>
+    <li><a href="tel:+18132573387" data-icon="info">Phone: (813) 257-3387</a></li>
+    <li><a href="mailto:stripp@ut.edu" data-icon="info">Email: stripp@ut.edu</a></li>
+    <li><a href="#policies">Policies</a></li>
+    <li><a href="#schedule">Schedule</a></li>
+  </ul>
+  
+  </div>
+  <footer data-role="footer" data-position="fixed" data-id="myFooter">
+     <nav data-role="navbar" data-theme="c">   
+    <ul>
+      <li><a href="#intro" data-icon="home" data-iconpos="bottom" data-mini="true">Home</a>
+      <li><a href="#info" data-icon="info" data-iconpos="bottom" data-mini="true"  class="ui-btn-active">Info</a></li>
+      <li><a href="#announce" data-icon="star" data-iconpos="bottom" data-mini="true" >New</a></li>
+      <li><a href="#resources" data-icon="search" data-iconpos="bottom" data-mini="true" >Links</a></li>
+    </ul>
+  </nav>
+  <h5>&copy;2012 Stephanie Tripp</h5></footer></section>
+<section data-role="page" id="announce" data-fullscreen="true" data-theme="a">
+  <header data-role="header" data-position="fixed"><h1>What's New</h1></header>
+  <article data-role="content" class="top_margin">
+    <article class="side-padding">
+    <h2>PhoneGap</h2>
+    <p class="date">Nov. 26, 2012</p>
+        <p>Check out chapter 11 in the Firtman book for information on downloading PhoneGap and packaging your app for distribution for various platforms. Refer to chapter 8, if necessary, for helping in creating a Cache Manifest file.</p>
+    <p>Create folders for each "native" app you wish to create. Copy all important files for your apps into each folder, and remember to cull files and sub-folders you don't need to include.</p>
+    <p>You can download PhoneGap at <a ref="external" href="http://www.phonegap.com" target="_blank">phonegap.com</a></p>
+  </article>
+  <article class="side-padding">
+    <h2>Go full-screen</h2>
+    <p class="date">Oct. 29, 2012</p>
+    <p>Check out chapter 8 in the Firtman book for information on making your app full-screen. There are some important &lt;meta&gt; tags that must be included in the head. Also, you need to enable the fullscreen attribute in each page area and set each header and footer to "fixed" position.</p>
+    <p>Note that going full-screen will change the behavior of your navigation. It can disable your back buttons and the header will cover the top portion of your content until the user taps the screen.</p>
+  </article>
+  	<article class="side-padding">
+    <h2>Welcome</h2>
+    <p class="date">Aug. 27, 2012</p>
+    <p>Welcome to Mobile Interactivity Design. Because of the RNC and the Labor Day holiday, we won't get a chance to meet until the third week of classes, but we will have a chance to get started by reviewing some information and resources together online.</p>
+  </article>
+  <footer data-role="footer" data-position="fixed" data-id="myFooter">
+     <nav data-role="navbar" data-theme="c">   
+    <ul>
+      <li><a href="#intro" data-icon="home" data-iconpos="bottom" data-mini="true">Home</a>
+      <li><a href="#info" data-icon="info" data-iconpos="bottom" data-mini="true" >Info</a></li>
+      <li><a href="#announce" data-icon="star" data-iconpos="bottom" data-mini="true" class="ui-btn-active">New</a></li>
+      <li><a href="#resources" data-icon="search" data-iconpos="bottom" data-mini="true" >Links</a></li>
+    </ul>
+  </nav>
+  <h5>&copy;2012 Stephanie Tripp</h5></footer>
+</section>
+<section data-role="page" id="assign" data-fullscreen="true" data-theme="a">
+  <header data-role="header" data-position="fixed"><h1>Assignments</h1></header>
+  <article data-role="content" class="top_margin">
+    <h2>Reading for Week 4</h2>
+    <p class="date">Sept. 17 2012</p>
+    <p>Please read chapter 1 from the Firtman book and look over the list of resources under the "resources" link this week. After completing the reading, please post one or two questions or items you would like to discuss about the reading on the discussion list on Blackboard.</p>
+  </article>
+  <footer data-role="footer" data-position="fixed" data-id="myFooter">
+     <nav data-role="navbar" data-theme="c">   
+    <ul>
+      <li><a href="#intro" data-icon="home" data-iconpos="bottom" data-mini="true">Home</a>
+      <li><a href="#info" data-icon="info" data-iconpos="bottom" data-mini="true"  class="ui-btn-active">Info</a></li>
+      <li><a href="#announce" data-icon="star" data-iconpos="bottom" data-mini="true" >New</a></li>
+      <li><a href="#resources" data-icon="search" data-iconpos="bottom" data-mini="true" >Links</a></li>
+    </ul>
+  </nav>
+  <h5>&copy;2012 Stephanie Tripp</h5></footer>
+</section>
+<section data-role="page" id="policies" data-fullscreen="true" data-theme="a">
+  <header data-role="header" data-position="fixed">
+    <h1>Policies</h1>
+  </header>
+  <div data-role="content" class="top_margin">
+    <div data-role="collapsible-set">
+    <article data-role="collapsible">
+      <h2>Academic integrity</h2>
+      <p>Cheating in any form will not be tolerated. Students caught violating any aspect of the University of Tampa's Academic Integrity Policy will be penalized in all cases. Penalty ranges from "0" on an assignment to "F" for the course without regard to a student's accumulated points. Students may also face expulsion. It is the student's responsibility to become familiar with the policies of the university regarding academic integrity and to avoid violating such policies.</p>
+    </article>
+    <article data-role="collapsible">
+      <h2>Interaction with others</h2>
+      <p>The college classroom is one of the most important venues our society provides for the free and critical exchange of ideas.  I encourage you to take advantage of this space as an opportunity to explore and to challenge your own ideas and those of others, but I also expect you to do so in a manner that demonstrates respect for your classmates, for me, and for this university.  You must participate in class discussion, e-mail, and other exchanges in a responsible manner, and you should grant others the same courtesy when they express their opinions that you would expect from them when you express your own.</p>
+    </article>
+    <article data-role="collapsible">
+      <h2>Cell phones, notebook computers, and other electronic devices</h2>
+      <p>Modern communication devices are ubiquitous, handy, and—sometimes—even valuable learning tools in college classrooms. Often, however, they distract us from the task at hand and annoy those around us. As a rule, please turn off your cell phones, portable music players, and other devices, and leave them off for the duration of the class period unless I specifically say it's OK to use them. Setting your phone to vibrate or using it only for texting are <em>not the same</em> as turning it off. You are welcome to use your laptop during class, but please don't use it for anything not related to class.</p>
+    </article>
+    <article data-role="collapsible">
+      <h2>UT's Class Disruption Policy</h2>
+      <p>Every student has the right to a comfortable learning environment where the open and honest exchange of ideas may freely occur. Each student is expected to do his or her part to ensure that the classroom (and anywhere else the class may meet) remains conducive to learning. According to the terms of the University of Tampa Disruption Policy, the professor will take immediate action when inappropriate behavior occurs.</p>
+    </article>
+    <article data-role="collapsible">
+      <h2>ADA compliance</h2>
+      <p>Any student who has special needs because of a disability should go directly to the Academic Center for Excellence in North Walker Hall.  Students may phone <a href="tel:+18132587251">813-258-7251</a>, or e-mail jdelvalle@ut.edu to report their needs and provide documentation of their disabilities for certification. Jennifer Del Valle is the associate director of the Academic Center for Excellence, Student Disability Services.  Please feel free to discuss this issue in private if you need more information.</p>
+    </article>
+    <article data-role="collapsible">
+      <h2>Class interruption due to adverse conditions</h2>
+      <p>In case of any adverse weather conditions or other situations which could interrupt the schedule of our classes, each student is asked to access www.ut.edu for information about the status of the campus and class meetings. In addition, please refer to ut.blackboard.com for announcements and other important information. You are responsible for accessing this information.</p>
+    </article>
+    </div>
+  </div>
+  <footer data-role="footer" data-position="fixed" data-id="myFooter">
+     <nav data-role="navbar" data-theme="c">   
+    <ul>
+      <li><a href="#intro" data-icon="home" data-iconpos="bottom" data-mini="true">Home</a>
+      <li><a href="#info" data-icon="info" data-iconpos="bottom" data-mini="true"  class="ui-btn-active">Info</a></li>
+      <li><a href="#announce" data-icon="star" data-iconpos="bottom" data-mini="true" >New</a></li>
+      <li><a href="#resources" data-icon="search" data-iconpos="bottom" data-mini="true" >Links</a></li>
+    </ul>
+  </nav>
+  <h5>&copy;2012 Stephanie Tripp</h5></footer>
+</section>
+<section data-role="page" id="schedule" data-fullscreen="true" data-theme="a">
+  <header data-role="header" data-position="fixed"><h1>Schedule</h1></header>
+  <div data-role="content" class="top_margin">
+  <div data-role="collapsible-set">
+    <article id="week1" data-role="collapsible">
+      <h2>Week 1</h2>
+      <p>Course introduction: Syllabus review and course business</p>
+      <p>What is mobile interactivity design? What do application developers do? (notes, resources, and links posted online)</p>
+      <p>(Note: The work this week will be handled online because of the Republican National Convention. Check your UT email and the course Blackboard site for information and updates)</p>
+    </article>
+    <article id="week2" data-role="collapsible">
+      <h2>Week 2</h2>
+      <p>No scheduled meeting because of the Labor Day holiday, but I will have readings and notes posted online to review and discuss the following week.</p>
+    </article>
+    <article id="week3" data-role="collapsible">
+      <h2>Week 3</h2>
+      <p>Reading: "Apps vs. the Web" by Craig Hockenberry (http://www.alistapart.com/articles/apps-vs-the-web/)</p>
+<p>An overview of web-based applications, how they differ from "native" applications, and what that difference means for application developers; a broad survey of smart phone and tablet manufacturers, operating systems, and the current state of the industry.</p>
+<p>Review of relevant HTML and CSS; creating a style sheet for the mobile screen
+</p>
+    </article>
+<article id="week4" data-role="collapsible">
+      <h2>Week 4</h2>
+      <p>Creating custom interface styles with HTML5 and CSS3<br>
+Introducing JavaScript and the JQuery Mobile library
+</p>
+    </article> 
+ <article id="week5" data-role="collapsible">
+      <h2>Week 5</h2>
+      <p>Reading: <a href="http://www.alistapart.com/
+articles/organizing-mobile/" target="_blank">Organizing Mobile" by Luke Wroblewski</a><br>
+Thinking about content, organization, and navigation
+From web page to app: condensing content for the small screen
+</p>
+    </article>
+<article id="week6" data-role="collapsible">
+      <h2>Week 6</h2>
+      <p>Applying good visual design practices to mobile apps: layout, color, and typography<br>
+Working with Theme Roller
+</p>
+    </article>
+<article id="week7" data-role="collapsible">
+      <h2>Week 7</h2>
+      <p>More JavaScript; creating icons and start-up graphics</p>
+    </article>
+   <article id="week8" data-role="collapsible">
+      <h2>Week 8</h2>
+      <p>Putting it all together: your first application</p>
+    </article> 
+     <article id="week9" data-role="collapsible">
+      <h2>Week 9</h2>
+      <p>Final project proposals due<br>
+Adding animation and other effects</p>
+    </article> 
+    <article id="week10" data-role="collapsible">
+      <h2>Week 10</h2>
+      <p>Server and client: Hijax, data storage, and more</p>
+    </article> 
+    <article id="week11" data-role="collapsible">
+      <h2>Week 11</h2>
+      <p>Beyond web-based: Deploying your app on iPhone, Blackberry, and other devices</p>
+    </article>
+        <article id="week12" data-role="collapsible">
+      <h2>Week 12</h2>
+      <p>Using PhoneGap</p>
+    </article>
+      <article id="week13" data-role="collapsible">
+      <h2>Week 13</h2>
+      <p>Overview of application development programs<br>
+Workshop</p>
+    </article>
+      <article id="week14" data-role="collapsible">
+      <h2>Week 14</h2>
+      <p>Project "beta" due; discussion and critique<br>
+Workshop</p>
+    </article>
+      <article id="week15" data-role="collapsible">
+      <h2>Week 15</h2>
+      <p>Final project due; discussion</p>
+    </article>             
+    </div>
+  </div>
+  <footer data-role="footer" data-position="fixed" data-id="myFooter">
+     <nav data-role="navbar" data-theme="c">   
+    <ul>
+      <li><a href="#intro" data-icon="home" data-iconpos="bottom" data-mini="true">Home</a>
+      <li><a href="#info" data-icon="info" data-iconpos="bottom" data-mini="true"  class="ui-btn-active">Info</a></li>
+      <li><a href="#announce" data-icon="star" data-iconpos="bottom" data-mini="true" >New</a></li>
+      <li><a href="#resources" data-icon="search" data-iconpos="bottom" data-mini="true" >Links</a></li>
+    </ul>
+  </nav>
+  <h5>&copy;2012 Stephanie Tripp</h5></footer>
+</section>
+<section data-role="page" id="resources" data-fullscreen="true" data-theme="a">
+  <header data-role="header" data-position="fixed"><h1>Resources</h1></header>
+  <div data-role="content" class="top_margin">
+    <ul data-role="listview" data-inset="true">
+      <li><a ref="external" href="http://www.html5rocks.com/en/" target="_blank">HTML5 Rocks<br />
+      A great resource for all things HTML5, from semantic markup, to CSS, to JavaScript interactivity and beyond.</a></li>
+      <li><a ref="external" href="http://www.alistapart.com/" target="_blank">A List Apart<br />
+      An online magazine for web design and development professionals that addresses, writing, design, management, and more.</a></li>
+      <li><a ref="external" href="http://mashable.com/mobile/" target="_blank">Mashable Mobile<br />
+      Mashable helps you keep up with the newest technology and trends, and its mobile section focuses on phones, tablets, apps, and best practices.</a></li>
+      <li><a ref="external" href="http://jquerymobile.com/themeroller/" target="_blank">Themeroller<br />
+      JQuery Mobile Themeroller allows you to create custom themes for your mobile apps and provides you with the CSS code.</a></li>
+      <li><a ref="external" href="http://mobilehtml5.org/" target="_blank">Mobile HTML5<br />
+      Provides up-to-date charts showing compatibility between Mobile HTML5 standards and various mobile and tablet browsing platforms.
+      </a></li>
+    </ul>
+  </div>
+  <footer data-role="footer" data-position="fixed" data-id="myFooter">
+     <nav data-role="navbar" data-theme="c">   
+    <ul>
+      <li><a href="#intro" data-icon="home" data-iconpos="bottom" data-mini="true">Home</a>
+      <li><a href="#info" data-icon="info" data-iconpos="bottom" data-mini="true" >Info</a></li>
+      <li><a href="#announce" data-icon="star" data-iconpos="bottom" data-mini="true" >New</a></li>
+      <li><a href="#resources" data-icon="search" data-iconpos="bottom" data-mini="true" class="ui-btn-active">Links</a></li>
+    </ul>
+  </nav>
+  <h5>&copy;2012 Stephanie Tripp</h5></footer>
+</section>
+<div id="addApp" data-role="dialog" data-add-back-btn="false">
+  <header data-role="header"><h3>Add This App</h3></header>
+  <div data-role="content" class="top_margin">
+  <p id="consoleInstall">Complete the installation</p>
+  <div id="install">
+  <p>To install this app on your device, click the arrow at the bottom of the screen and choose &#8220;Add to Home Screen.&#8221;</p>
+  </div>
+  <p><a href="#intro" data-role="button">Continue without adding</a></p>
+  </div>
+  </div> 
+</body>
+</html>
